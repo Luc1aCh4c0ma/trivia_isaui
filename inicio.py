@@ -8,7 +8,7 @@ from tkinter import font
 from tkinter import simpledialog
 from PIL import Image, ImageTk
 import tkinter.messagebox as msgbox
-from datos import obtener_preguntas, seleccionar_preguntas, comprobar_respuesta, calcular_puntaje, registrar_tiempo,obtener_resultados, registrar_resultado_usuario, guardar_datos_usuario, reiniciar_juego, cerrar_db
+from datos import obtener_preguntas, seleccionar_preguntas, comprobar_respuesta, calcular_puntaje, registrar_tiempo,obtener_resultados, registrar_resultado_usuario, guardar_datos_usuario, cerrar_db
 
 class TriviaGame:
     def __init__(self, root):
